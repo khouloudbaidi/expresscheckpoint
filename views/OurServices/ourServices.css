@@ -1,0 +1,21 @@
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    align-items: center;
+    width: 50%;
+    margin: 50px auto;
+    padding: 3%;
+    background-color:lemonchiffon ;
+    border-radius: 50px;
+
+}
+h2 {
+    padding: 6%;
+    margin: auto;
+    border-left: solid palevioletred;
+    background-color: #9e9e9e2b;
+    width: 50%;
+    height: 10px;
+    border-radius: 50px;
+}

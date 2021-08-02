@@ -1,0 +1,22 @@
+html 
+    head 
+        title ContactUs Page 
+        style 
+            include contactUs.css 
+    body 
+     .links 
+        a(href='/') Home
+        a(href='/views/ContactUs') contactUs
+        a(href='/views/OurServices') ourServices
+
+    .txt
+        form(action="") 
+            label(for="name") Name 
+            input(type="text")
+            label(for="name") Number 
+            input(type="number")
+            label(for="email") Email 
+            input(type="email")
+            label(for="message") Message 
+            textarea(name="message", cols="30", rows="10") 
+            input(type="submit")
